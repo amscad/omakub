@@ -1,9 +1,12 @@
 # Favorite apps for dock
 apps=(
+	"brave.desktop"
+	"firefox.desktop"
 	"google-chrome.desktop"
 	"Alacritty.desktop"
 	"Neovim.desktop"
 	"code.desktop"
+	"jetbrains-rubymine.desktop"
 	"WhatsApp.desktop"
 	"signal-desktop.desktop"
 	"Zoom.desktop"

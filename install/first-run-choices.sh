@@ -1,5 +1,5 @@
-OPTIONAL_APPS=("Brave" "Spotify" "Zed" "VirtualBox")
-DEFAULT_OPTIONAL_APPS='Brave,Spotify,Zed,VirtualBox'
+OPTIONAL_APPS=("Brave" "Spotify" "Zed" "VirtualBox" "RubyMine")
+DEFAULT_OPTIONAL_APPS='Brave,Spotify,Zed,VirtualBox','RubyMine'
 export OMAKUB_FIRST_RUN_OPTIONAL_APPS=$(gum choose "${OPTIONAL_APPS[@]}" --no-limit --selected $DEFAULT_OPTIONAL_APPS --height 7 --header "Select optional apps" | tr ' ' '-')
 
 AVAILABLE_LANGUAGES=("Ruby on Rails" "Node.js" "Go" "PHP" "Python" "Elixir" "Rust" "Java")

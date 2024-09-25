@@ -4,6 +4,7 @@ apps=(
 	"firefox.desktop"
 	"google-chrome.desktop"
 	"Alacritty.desktop"
+	"org.gnome.Terminal.desktop"
 	"Neovim.desktop"
 	"code.desktop"
 	"jetbrains-rubymine.desktop"
